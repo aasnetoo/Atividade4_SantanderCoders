@@ -39,18 +39,16 @@ public class Questao4_SC {
             System.out.println("Testes executados com sucesso");
         }
         else{
-            cont = 0;
             System.out.println("Os seguintes testes falharam: ");
             for (int i = 0; i < testeFalha.length-1; i++) {
                     if (armazenarTeste[i] != null && testeFalha[i][0] != null & testeFalha[i][1] != null){
                         String teste = armazenarTeste[i];
                         String resultadoTeste = testeFalha[i][0]; // 0 - 2 - 4 - 6
                         String resultadoMetodo = testeFalha[i][1]; //1+0+0 - 3 - 5 - 7
-                        cont++;
+
                         System.out.println(teste+" - Resultado: "+resultadoTeste+" - Correto: "+resultadoMetodo);
                     }
             }
-
 
         }
     }
