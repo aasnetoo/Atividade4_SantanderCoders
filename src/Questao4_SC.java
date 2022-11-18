@@ -1,20 +1,20 @@
+
 public class Questao4_SC {
 
     public static final String VOTO_OBRIGATORIO = "VOTO OBRIGATORIO";
     public static final String VOTO_FACULTATIVO = "VOTO FACULTATIVO";
     public static final String NAO_PODE_VOTAR = "NAO PODE VOTAR";
-
     public static void main(String[] args) {
 
         String[][] testeVoto = {
-                {"10", "VOTO OBRIGATORIO"},
-                {"76", "VOTO OBRIGATORIO"},
+                {"50", "VOTO OBRIGATORIO"},
+                {"25", "VOTO OBRIGATORIO"},
                 {"16", "VOTO FACULTATIVO"},
                 {"17", "VOTO FACULTATIVO"},
                 {"14", "NAO PODE VOTAR"},
                 {"45", "VOTO OBRIGATORIO"},
                 {"75", "VOTO FACULTATIVO"},
-                {"50", "NAO PODE VOTAR"},
+                {"-10", "NAO PODE VOTAR"},
                 {"10", "NAO PODE VOTAR"},
         };
 
